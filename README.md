@@ -5,7 +5,7 @@ This is basically a front-end optimization to my website that actually doesn't r
 ### How this works?
 This project uses Gatsby and gatsby-source-wordpress to query the API and show the posts and React for the website in general.
 ### Does this project has a license?
-Yes. As it's under a MIT License, you **can** use this code and adapt it if you're trying to build your project and needs something to start. I don't guarantee that this _will_ work OOB. Most of the projects that includes Gatsby and gatsby-source-wordpress has some independent pieces of code that varies between WordPress installations, such as the usage of authentication plugins for authenticated REST queries and such.
+This project does not have a license. However, you **can** use this code and adapt it if you're trying to build your project and needs something to start. I don't guarantee that this _will_ work OOB. Most of the projects that includes Gatsby and gatsby-source-wordpress has some independent pieces of code that varies between WordPress installations, such as the usage of authentication plugins for authenticated REST queries and such.
 ### Anything I should know about this project before I start?
 Yes:
 1. This project has been developed on a Linux distro (Fedora) and it does the job pretty well! During development, there were some issues while compiling it on Windows, more specifically regarding permissions (which actually made the act of compiling nearly impossible), so any issues related should be tested in a different development environment. I've used Atom as editor, and any editor in the market (VS Code, WebStorm and so on) should do the job.
